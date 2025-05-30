@@ -11,10 +11,10 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@frontend/*": ["frontend/src/*"],
+      "@frontend/*": ["src/*"],
       "@backend/*": ["backend/src/*"]
     }
   },
-  "include": ["frontend/src", "backend/src"],
+  "include": ["src", "backend/src"],
   "exclude": ["node_modules", "dist"]
 }
