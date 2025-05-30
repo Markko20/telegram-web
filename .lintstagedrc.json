@@ -6,9 +6,5 @@
   "frontend/src/**/*.css": [
     "stylelint --fix",
     "prettier --write"
-  ],
-  "backend/src/**/*.{js,ts,json,md}": [
-    "eslint --fix -c eslint.backend.config.js",
-    "prettier --write"
   ]
 }
